@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/g1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/header"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="cursive"
+            android:paddingTop="70dp"
+            android:text="@string/EB"
+            android:textColor="#000"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/reading"
+            android:layout_width="163dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/mbtn"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/reading"
+            android:textAllCaps="false"
+            android:textColor="@color/g3"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/unit"
+            android:layout_width="163dp"
+            android:layout_height="85dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/mbtn"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/unit"
+            android:textAllCaps="false"
+            android:textColor="@color/g3"
+            android:textSize="22sp" />
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Result"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/g1"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="168dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/header"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="cursive"
+            android:paddingTop="70dp"
+            android:text="EB calculater"
+            android:textColor="#000"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+
+       >
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Consumer Unit:"
+           android:textSize="25sp"
+           android:layout_marginStart="20dp"
+           android:layout_marginTop="40dp"
+           android:textColor="#fff"
+           />
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:layout_marginStart="30dp"
+           android:textSize="25sp"
+           android:layout_marginTop="40dp"
+           android:textColor="#fff"
+           android:id="@+id/uni"
+           />
+
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount:"
+            android:layout_marginStart="20dp"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:textColor="#fff"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginStart="30dp"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:textColor="#fff"
+            android:id="@+id/amount"
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
